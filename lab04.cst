@@ -1,0 +1,8 @@
+IO_LOC "i_clk" T9;
+IO_PORT "i_clk" IO_TYPE=LVCMOS33;
+
+IO_LOC "i_sw" D9;
+IO_PORT "i_sw" IO_TYPE=LVCMOS15 PULL_MODE=UP;
+
+IO_LOC "o_led" A7;
+IO_PORT "o_led" IO_TYPE=LVCMOS15;
